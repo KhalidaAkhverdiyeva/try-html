@@ -1,18 +1,15 @@
-// Creating an array
-let fruits = ['Apple', 'Banana', 'Orange', 'Mango'];
+let colors = ["red","green", "yellow"];
+for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+}
 
-// Accessing elements in the array
-console.log(fruits[0]); // Output: Apple
 
-// Modifying elements in the array
-fruits[1] = 'Grapes';
-console.log(fruits); // Output: ['Apple', 'Grapes', 'Orange', 'Mango']
+let day = 'Monday';
 
-// Adding elements to the end of the array
-fruits.push('Pineapple');
-console.log(fruits); // Output: ['Apple', 'Grapes', 'Orange', 'Mango', 'Pineapple']
 
-// Removing the last element from the array
-let removedFruit = fruits.pop();
-console.log(removedFruit); // Output: Pineapple
-console.log(fruits); // Output: ['Apple', 'Grapes', 'Orange', 'Mango']
+function checkedNumber(number) {
+if (number % 2 ===0 ) {
+    console.log( number + 'is even');
+    else { console.log(number + 'is odd')}
+}
+}
